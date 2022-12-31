@@ -1,0 +1,43 @@
+*{
+    font-family: Cambria, serif;
+}
+
+#diploma{
+    font-size: 3.5vw;
+    padding-top:20px;
+}
+
+#name{
+    margin-top:-20px;
+    font-size: 14vw;
+}
+
+#career{
+    line-height:10px;
+    font-size:6vw;
+}
+#careernote{
+    line-height:1px;
+    font-size:3vw;
+}
+
+#skills{
+    font-size:6vw;
+}
+
+.skillsection{
+    font-size:4vw;
+}
+
+.bracket{
+    margin-top:-10px;
+    font-size:14vw;
+}
+
+.languages{
+
+}
+
+li{
+    list-style:none;
+}
