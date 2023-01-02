@@ -3,41 +3,37 @@
 }
 
 #diploma{
-    font-size: 3.5vw;
     padding-top:20px;
+    font-size:100%;
 }
 
 #name{
     margin-top:-20px;
-    font-size: 14vw;
+    display:table-caption;
 }
 
 #career{
-    line-height:10px;
-    font-size:6vw;
+    font-size: 150%
 }
 #careernote{
-    line-height:1px;
-    font-size:3vw;
+    margin-top: -25px;
 }
 
-#skills{
-    font-size:6vw;
-}
+
 
 .skillsection{
-    font-size:4vw;
+    display:table-caption;
 }
 
 .bracket{
-    margin-top:-10px;
-    font-size:14vw;
+    text-align: start;
 }
 
 .languages{
 
 }
 
-li{
+ul{
+    text-align:start;
     list-style:none;
 }
