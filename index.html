@@ -26,7 +26,7 @@
 
         <div class="row">
             <div class="col-8">
-                <p id="career">Software Developer</p>
+                <p class="">Software Developer</p>
                 <p id="careernote">(in training)</p>
             </div>
         </div>
@@ -42,90 +42,215 @@
         </div>
     </div>
 
+
+    <div class="accordion accordion-flush col-sm-6" id="accordionSkills">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    Skills
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                 data-bs-parent="#accordionSkills">
+                <!--Accordion for skills-->
+                <div class="accordion-body">
+                    <!-- OOP -->
+                    <div class="accordion" id="sub-accordionSkills">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingOOP">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseOOP" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                    Object Oriented Programming
+                                </button>
+                            </h2>
+                            <div id="sub-collapseOOP" class="accordion-collapse collapse show"
+                                 aria-labelledby="sub-headingOOP" data-bs-parent="#sub-accordionSkills">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Java</li>
+                                        <li class="list-group-item">C#</li>
+                                        <li class="list-group-item">C++</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingDBA">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseDBA" aria-expanded="false"
+                                        aria-controls="sub-collapseDBA">
+                                    Database Query Language
+                                </button>
+                            </h2>
+                            <div id="sub-collapseDBA" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingDBA" data-bs-parent="#sub-accordionSkills">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">MySQL</li>
+                                        <li class="list-group-item">MariaDB</li>
+                                        <li class="list-group-item">T-SQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingWEB">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseWEB" aria-expanded="false"
+                                        aria-controls="sub-collapseWEB">
+                                    Front-End Web Development
+                                </button>
+                            </h2>
+                            <div id="sub-collapseWEB" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingWEB" data-bs-parent="#sub-accordionSkills">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">HTML</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingMGMT">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseMGMT" aria-expanded="false"
+                                        aria-controls="sub-collapseMGMT">
+                                    Project Management Methodologies
+                                </button>
+                            </h2>
+                            <div id="sub-collapseMGMT" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingMGMT" data-bs-parent="#sub-accordionSkills">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Scrum</li>
+                                        <li class="list-group-item">Agile</li>
+                                        <li class="list-group-item">Waterfall</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- OOP -->
-    <div class="row">
-        <button data-bs-toggle="collapse" data-bs-target="#oop" class="col-sm-6 col-12 text-start">Object Oriented
-            Programming
-        </button>
-        <div class="collapse col-sm-6 col-6" id="oop">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Java</li>
-                <li class="list-group-item">C#</li>
-                <li class="list-group-item">C++</li>
-            </ul>
+    <div class="accordion accordion-flush" id="accordion">
+        <!--        <div class="accordion-item">-->
+        <!--            <h2 class="accordion-header" id="flush-headingOOP">-->
+        <!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+        <!--                        data-bs-target="#flush-collapseOOP" aria-expanded="false" aria-controls="flush-collapseOOP">-->
+        <!--                    Objected Oriented Programming-->
+        <!--                </button>-->
+        <!--            </h2>-->
+        <!--            <div id="flush-collapseOOP" class="accordion-collapse collapse" aria-labelledby="flush-headingOOP"-->
+        <!--                 data-bs-parent="#accordion">-->
+        <!--                <div class="accordion-body">-->
+        <!--                    <ul class="list-group list-group-flush">-->
+        <!--                        <li class="list-group-item">Java</li>-->
+        <!--                        <li class="list-group-item">C#</li>-->
+        <!--                        <li class="list-group-item">C++</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    Database -->
+        <!--        <div class="accordion-item">-->
+        <!--            <h2 class="accordion-header" id="flush-headingDBL">-->
+        <!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+        <!--                        data-bs-target="#flush-collapseDBL" aria-expanded="false" aria-controls="flush-collapseDBL">-->
+        <!--                    Database Query Language-->
+        <!--                </button>-->
+        <!--            </h2>-->
+        <!--            <div id="flush-collapseDBL" class="accordion-collapse collapse" aria-labelledby="flush-headingDBL"-->
+        <!--                 data-bs-parent="#accordion">-->
+        <!--                <div class="accordion-body">-->
+        <!--                    <ul class="list-group list-group-flush">-->
+        <!--                        <li class="list-group-item">MySQL</li>-->
+        <!--                        <li class="list-group-item">MariaDB</li>-->
+        <!--                        <li class="list-group-item">T-SQL</li>-->
+        <!--                    </ul>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <!--    Front-end -->
+<!--        <div class="accordion-item">-->
+<!--            <h2 class="accordion-header" id="flush-headingWEB">-->
+<!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                        data-bs-target="#flush-collapseWEB" aria-expanded="false" aria-controls="flush-collapseWEB">-->
+<!--                    Front-End Web Development-->
+<!--                </button>-->
+<!--            </h2>-->
+<!--            <div id="flush-collapseWEB" class="accordion-collapse collapse" aria-labelledby="flush-headingWEB"-->
+<!--                 data-bs-parent="#accordion">-->
+<!--                <div class="accordion-body">-->
+<!--                    <ul class="list-group list-group-flush">-->
+<!--                        <li class="list-group-item">HTML</li>-->
+<!--                        <li class="list-group-item">CSS</li>-->
+<!--                        <li class="list-group-item">JavaScript</li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <!--    Methodologies -->
+<!--        <div class="accordion-item">-->
+<!--            <h2 class="accordion-header" id="flush-headingMGMT">-->
+<!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
+<!--                        data-bs-target="#flush-collapseMGMT" aria-expanded="false" aria-controls="flush-collapseMGMT">-->
+<!--                    Project Management Methodologies-->
+<!--                </button>-->
+<!--            </h2>-->
+<!--            <div id="flush-collapseMGMT" class="accordion-collapse collapse" aria-labelledby="flush-headingMGMT"-->
+<!--                 data-bs-parent="#accordion">-->
+<!--                <div class="accordion-body">-->
+<!--                    <ul class="list-group list-group-flush">-->
+<!--                        <li class="list-group-item">Scrum</li>-->
+<!--                        <li class="list-group-item">Agile</li>-->
+<!--                        <li class="list-group-item">Waterfall</li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class="row">
+            <div class="col-4 border">
+                <p>Experience</p>
+            </div>
         </div>
-    </div>
-
-    <!--    Database -->
-    <div class="row">
-        <button data-bs-toggle="collapse" data-bs-target="#dbl" class="col-sm-6 col-12 text-start">Database Query Language
-        </button>
-        <div class="collapse col-sm-6 col-6" id="dbl">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">MySQL</li>
-                <li class="list-group-item">MariaDB</li>
-                <li class="list-group-item">T-SQL</li>
-            </ul>
-        </div>
-    </div>
-
-    <!--    Front-end -->
-    <div class="row">
-        <button data-bs-toggle="collapse" data-bs-target="#web" class="col-sm-6 col-12 text-start">Front-End Web Development</button>
-
-            <div class="collapse col-sm-6 col-6" id="web">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">MySQL</li>
-                    <li class="list-group-item">MariaDB</li>
-                    <li class="list-group-item">T-SQL</li>
+        <div class="row">
+            <div class="col-6 border">
+                <p>Project Blackbird</p>
+                <ul>
+                    <li>
+                        NSCC
+                    </li>
+                    <li>
+                        Summer 2022
+                    </li>
                 </ul>
             </div>
-    </div>
-
-    <!--    Methodologies -->
-    <div class="row">
-        <button data-bs-toggle="collapse" data-bs-target="#projectmgmnt" class="col-sm-6 col-12 text-start">Project Management Methodologies</button>
-        <div class="collapse col-sm-6 col-6" id="projectmgmnt">
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Scrum</li>
-                <li class="list-group-item">Agile</li>
-                <li class="list-group-item">Waterfall</li>
-            </ul>
+        </div>
+        <div class="row">
+            <div class="col-6 border">
+                <p>L2 Technical Support</p>
+                <ul>
+                    <li>
+                        Concentrix
+                    </li>
+                    <li>
+                        Mar-Dec 2021
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-4 border">
-            <p>Experience</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6 border">
-            <p>Project Blackbird</p>
-            <ul>
-                <li>
-                    NSCC
-                </li>
-                <li>
-                    Summer 2022
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6 border">
-            <p>L2 Technical Support</p>
-            <ul>
-                <li>
-                    Concentrix
-                </li>
-                <li>
-                    Mar-Dec 2021
-                </li>
-            </ul>
-        </div>
-    </div>
-
 </div>
 </body>
 
