@@ -36,25 +36,22 @@
 
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-2">
-            <p class="h3" id="skills">Skills</p>
-        </div>
-    </div>
-
-
-    <div class="accordion accordion-flush col-sm-6" id="accordionSkills">
+    <div class="accordion col-sm-6" id="accordionSkills">
         <div class="accordion-item">
+
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
                     Skills
                 </button>
             </h2>
+
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                  data-bs-parent="#accordionSkills">
+
                 <!--Accordion for skills-->
                 <div class="accordion-body">
+
                     <!-- OOP -->
                     <div class="accordion" id="sub-accordionSkills">
                         <div class="accordion-item">
@@ -76,6 +73,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--    Database -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingDBA">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -95,6 +94,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--    Front-end -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingWEB">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -114,6 +115,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--    Methodologies -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingMGMT">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -138,116 +141,55 @@
             </div>
         </div>
     </div>
+<hr class="col-sm-6">
+    <div class="accordion col-sm-6" id="accordionExperience">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                    Experience
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                 data-bs-parent="#accordionSkills">
 
-    <!-- OOP -->
-    <div class="accordion accordion-flush" id="accordion">
-        <!--        <div class="accordion-item">-->
-        <!--            <h2 class="accordion-header" id="flush-headingOOP">-->
-        <!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
-        <!--                        data-bs-target="#flush-collapseOOP" aria-expanded="false" aria-controls="flush-collapseOOP">-->
-        <!--                    Objected Oriented Programming-->
-        <!--                </button>-->
-        <!--            </h2>-->
-        <!--            <div id="flush-collapseOOP" class="accordion-collapse collapse" aria-labelledby="flush-headingOOP"-->
-        <!--                 data-bs-parent="#accordion">-->
-        <!--                <div class="accordion-body">-->
-        <!--                    <ul class="list-group list-group-flush">-->
-        <!--                        <li class="list-group-item">Java</li>-->
-        <!--                        <li class="list-group-item">C#</li>-->
-        <!--                        <li class="list-group-item">C++</li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    Database -->
-        <!--        <div class="accordion-item">-->
-        <!--            <h2 class="accordion-header" id="flush-headingDBL">-->
-        <!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
-        <!--                        data-bs-target="#flush-collapseDBL" aria-expanded="false" aria-controls="flush-collapseDBL">-->
-        <!--                    Database Query Language-->
-        <!--                </button>-->
-        <!--            </h2>-->
-        <!--            <div id="flush-collapseDBL" class="accordion-collapse collapse" aria-labelledby="flush-headingDBL"-->
-        <!--                 data-bs-parent="#accordion">-->
-        <!--                <div class="accordion-body">-->
-        <!--                    <ul class="list-group list-group-flush">-->
-        <!--                        <li class="list-group-item">MySQL</li>-->
-        <!--                        <li class="list-group-item">MariaDB</li>-->
-        <!--                        <li class="list-group-item">T-SQL</li>-->
-        <!--                    </ul>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
+                <!--Accordion for experience-->
+                <div class="accordion-body">
+                    <!-- Project Blackbird -->
+                    <div class="accordion" id="sub-accordionExperience">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingBB">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseBB" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                    Project Blackbird | Spring 2022
+                                </button>
+                            </h2>
+                            <div id="sub-collapseBB" class="accordion-collapse collapse show"
+                                 aria-labelledby="sub-headingBB" data-bs-parent="#sub-accordionExperience">
+                                <div class="accordion-body">
+                                    <p> Add info here</p>
+                                </div>
+                            </div>
+                        </div>
 
-        <!--    Front-end -->
-<!--        <div class="accordion-item">-->
-<!--            <h2 class="accordion-header" id="flush-headingWEB">-->
-<!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
-<!--                        data-bs-target="#flush-collapseWEB" aria-expanded="false" aria-controls="flush-collapseWEB">-->
-<!--                    Front-End Web Development-->
-<!--                </button>-->
-<!--            </h2>-->
-<!--            <div id="flush-collapseWEB" class="accordion-collapse collapse" aria-labelledby="flush-headingWEB"-->
-<!--                 data-bs-parent="#accordion">-->
-<!--                <div class="accordion-body">-->
-<!--                    <ul class="list-group list-group-flush">-->
-<!--                        <li class="list-group-item">HTML</li>-->
-<!--                        <li class="list-group-item">CSS</li>-->
-<!--                        <li class="list-group-item">JavaScript</li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <!--    Methodologies -->
-<!--        <div class="accordion-item">-->
-<!--            <h2 class="accordion-header" id="flush-headingMGMT">-->
-<!--                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"-->
-<!--                        data-bs-target="#flush-collapseMGMT" aria-expanded="false" aria-controls="flush-collapseMGMT">-->
-<!--                    Project Management Methodologies-->
-<!--                </button>-->
-<!--            </h2>-->
-<!--            <div id="flush-collapseMGMT" class="accordion-collapse collapse" aria-labelledby="flush-headingMGMT"-->
-<!--                 data-bs-parent="#accordion">-->
-<!--                <div class="accordion-body">-->
-<!--                    <ul class="list-group list-group-flush">-->
-<!--                        <li class="list-group-item">Scrum</li>-->
-<!--                        <li class="list-group-item">Agile</li>-->
-<!--                        <li class="list-group-item">Waterfall</li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <div class="row">
-            <div class="col-4 border">
-                <p>Experience</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6 border">
-                <p>Project Blackbird</p>
-                <ul>
-                    <li>
-                        NSCC
-                    </li>
-                    <li>
-                        Summer 2022
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6 border">
-                <p>L2 Technical Support</p>
-                <ul>
-                    <li>
-                        Concentrix
-                    </li>
-                    <li>
-                        Mar-Dec 2021
-                    </li>
-                </ul>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingCTX">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseCTX" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                    Concentrix | Feb. - Dec. 2022
+                                </button>
+                            </h2>
+                            <div id="sub-collapseCTX" class="accordion-collapse collapse show"
+                                 aria-labelledby="sub-headingCTX" data-bs-parent="#sub-accordionExperience">
+                                <div class="accordion-body">
+                                    <p> Add info here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
