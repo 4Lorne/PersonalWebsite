@@ -22,5 +22,13 @@ ul{
 .vert-center{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+}
+
+@media only screen and (max-width:600px){
+    .vert-center{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
