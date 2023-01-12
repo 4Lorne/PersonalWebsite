@@ -7,30 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Lorne Day</title>
+    <title>Portfolio</title>
 </head>
 
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-6">
-                <p id="diploma"> IT Programming</p>
+            <div class="col-12 col-sm-4 vert-center pt-4">
+                <p id="diploma"> 2nd Year IT Programming student at NSCC</p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4">
-                <h1 class="display-1" id="name"> Lorne Day</h1>
+            <div class="col-12 col-sm-4 vert-center py-2">
+                <h1 class="display-2" id="name">Lorne Day</h1>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-8">
-                <p class="">Software Developer</p>
-                <p id="careernote">(in training)</p>
+            <div class="col-12 col-sm-3 vert-center">
+                <p id="career">Software Developer</p>
             </div>
         </div>
-
     </div>
 </header>
 
@@ -41,12 +39,12 @@
 
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne">
+                        aria-expanded="false" aria-controls="collapseOne">
                     Skills
                 </button>
             </h2>
 
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                  data-bs-parent="#accordionSkills">
 
                 <!--Accordion for skills-->
@@ -57,12 +55,12 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingOOP">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub-collapseOOP" aria-expanded="true"
+                                        data-bs-target="#sub-collapseOOP" aria-expanded="false"
                                         aria-controls="collapseOne">
                                     Object Oriented Programming
                                 </button>
                             </h2>
-                            <div id="sub-collapseOOP" class="accordion-collapse collapse show"
+                            <div id="sub-collapseOOP" class="accordion-collapse collapse"
                                  aria-labelledby="sub-headingOOP" data-bs-parent="#sub-accordionSkills">
                                 <div class="accordion-body">
                                     <ul class="list-group list-group-flush">
@@ -141,16 +139,80 @@
             </div>
         </div>
     </div>
-<hr class="col-sm-6">
+    <hr class="col-sm-6">
+    <div class="accordion col-sm-6" id="accordionEducation">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                    Education
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                 data-bs-parent="#accordionEducation">
+
+                <!--Accordion for Education-->
+                <div class="accordion-body">
+                    <!-- Project Blackbird -->
+                    <div class="accordion" id="sub-accordionEducation">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingDal">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseDal" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    Dalhousie University
+                                </button>
+                            </h2>
+                            <div id="sub-collapseDal" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingBB" data-bs-parent="#sub-accordionEducation">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Bachelor of Applied Computer Science</li>
+                                        <ul>
+                                            <li class="list-group">September 2017 - May 2019</li>
+                                            <li class="list-group"><strong>Incomplete</strong></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingNSCC">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseNSCC" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    Nova Scotia Community College
+                                </button>
+                            </h2>
+                            <div id="sub-collapseNSCC" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingNSCC" data-bs-parent="#sub-accordionEducation">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">IT Programming Diploma</li>
+                                        <ul>
+                                            <li class="list-group">January 2022 - December 2023</li>
+                                            <li class="list-group"><strong>In Progress</strong></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-6">
     <div class="accordion col-sm-6" id="accordionExperience">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                        aria-expanded="true" aria-controls="collapseTwo">
+                        aria-expanded="false" aria-controls="collapseTwo">
                     Experience
                 </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                  data-bs-parent="#accordionSkills">
 
                 <!--Accordion for experience-->
@@ -160,15 +222,20 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingBB">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub-collapseBB" aria-expanded="true"
+                                        data-bs-target="#sub-collapseBB" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                    Project Blackbird | Spring 2022
+                                    ITJobFair
                                 </button>
                             </h2>
-                            <div id="sub-collapseBB" class="accordion-collapse collapse show"
+                            <div id="sub-collapseBB" class="accordion-collapse collapse"
                                  aria-labelledby="sub-headingBB" data-bs-parent="#sub-accordionExperience">
                                 <div class="accordion-body">
-                                    <p> Add info here</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Team Lead & Junior Developer</li>
+                                        <ul>
+                                            <li class="list-group">Summer 2022 Work Term</li>
+                                        </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -176,15 +243,41 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="sub-headingCTX">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub-collapseCTX" aria-expanded="true"
+                                        data-bs-target="#sub-collapseCTX" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                    Concentrix | Feb. - Dec. 2022
+                                    Concentrix
                                 </button>
                             </h2>
-                            <div id="sub-collapseCTX" class="accordion-collapse collapse show"
+                            <div id="sub-collapseCTX" class="accordion-collapse collapse"
                                  aria-labelledby="sub-headingCTX" data-bs-parent="#sub-accordionExperience">
                                 <div class="accordion-body">
-                                    <p> Add info here</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">L2 Technical Support Specialist</li>
+                                        <ul>
+                                            <li class="list-group">February 2021 - December 2021</li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingSNT">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sub-collapseSNT" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                    Sarah and Tom
+                                </button>
+                            </h2>
+                            <div id="sub-collapseSNT" class="accordion-collapse collapse"
+                                 aria-labelledby="sub-headingSNT" data-bs-parent="#sub-accordionExperience">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Manager</li>
+                                        <ul>
+                                            <li class="list-group">2018 - 2021</li>
+                                        </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -200,5 +293,11 @@
 
 </footer>
 
-<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </html>
+
+<!--TODO: Add darkmode toggle-->
+<!--TODO: Add links-->
+<!--TODO: Close child accordions after closing parent accoridion -->
+<!--TODO: Add better way to list responsibilities in experience-->
