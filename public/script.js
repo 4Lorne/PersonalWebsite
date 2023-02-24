@@ -5,4 +5,3 @@ $(document).ready(function(){
     });
 });
 
-//Bug that closes all of them sometimes, probably has to do with selector
