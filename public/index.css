@@ -25,6 +25,10 @@ ul{
     align-items: start;
 }
 
+.accordion-button {
+  --bs-accordion-active-bg: white;
+}
+
 @media only screen and (max-width:600px){
     .vert-center{
         display:flex;
