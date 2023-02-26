@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!-- TODO: Fix Accordion being open by default https://getbootstrap.com/docs/5.0/components/accordion/#always-open -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,7 +12,7 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-3 vert-center pt-4">
+            <div class="col-12 col-sm-4 vert-center pt-4">
                 <p id="diploma"> 2nd Year IT Programming student at NSCC</p>
             </div>
         </div>
@@ -25,7 +24,7 @@
         </div>
 
         <div class="row">
-            <div class="col-12 col-sm-3 vert-center">
+            <div class="col-12 col-sm-4 vert-center">
                 <p id="career">Software Developer</p>
             </div>
         </div>
@@ -47,15 +46,13 @@
     <div class="container">
         <div class="accordion col-sm-6" id="accordionSkills">
             <div class="accordion-item">
-
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" data-bs-parent="#accordionSkills">
                     Skills
-                </button>
+                    </button>
                 </h2>
 
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionSkills">
-
                     <!--Accordion for skills-->
                     <div class="accordion-body">
                         <!-- OOP -->
@@ -275,6 +272,7 @@
 </html>
 
 
-<!--TODO: Add darkmode toggle-->
-<!--TODO: Add links-->
-<!--TODO: Add popover to list my responsibilities --
+<!--TODO: Add dark mode toggle-->
+<!--TODO: Add popover to list my responsibilities -->
+<!--TODO: Fix Accordion being open by default https://getbootstrap.com/docs/5.0/components/accordion/#always-open -->
+
