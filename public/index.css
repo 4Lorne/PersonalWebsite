@@ -1,32 +1,32 @@
-*{
+* {
     font-family: Cambria, serif;
 }
 
-.accordion-button:not(.collapse){
-    color:black !important;
+.accordion-button:not(.collapse) {
+    color: black !important;
 }
 
-#name{
-    margin-top:-20px;
+#name {
+    margin-top: -20px;
 }
 
-#career{
+#career {
     font-size: 150%;
-    margin-top:-15px;
+    margin-top: -15px;
 }
 
-ul{
-    text-align:start;
+ul {
+    text-align: start;
 }
 
-.vert-center{
-    display:flex;
+.vert-center {
+    display: flex;
     flex-direction: column;
     align-items: start;
 }
 
 .accordion-button {
-  --bs-accordion-active-bg: white;
+    --bs-accordion-active-bg: white;
 }
 
 .accordion-button:focus {
@@ -35,16 +35,14 @@ ul{
     box-shadow: 0 0 10px .35rem lightgrey !important;
 }
 
-
-@media only screen and (max-width:600px){
-    .vert-center{
-        display:flex;
+@media only screen and (max-width:600px) {
+    .vert-center {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .vert-center-images{
-        display:flex;
+    .vert-center-images {
+        display: flex;
         flex-direction: row;
         align-items: center;
     }

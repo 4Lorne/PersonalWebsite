@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -47,7 +48,7 @@
         <div class="accordion col-sm-6" id="accordionSkills">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" data-bs-parent="#accordionSkills">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Skills
                     </button>
                 </h2>
@@ -142,10 +143,10 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionEducation">
 
-                    <!--Accordion for Experience-->
+                    <!--Accordion for Education-->
                     <div class="accordion-body">
-                        <!-- Project Blackbird -->
                         <div class="accordion" id="sub-accordionEducation">
+                            <!-- Dalhousie -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="sub-headingDal">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseDal" aria-expanded="false" aria-controls="collapseThree">
@@ -164,7 +165,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!--NSCC-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="sub-headingNSCC">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseNSCC" aria-expanded="false" aria-controls="collapseThree">
@@ -200,8 +201,8 @@
 
                     <!--Accordion for experience-->
                     <div class="accordion-body">
-                        <!-- Project Blackbird -->
                         <div class="accordion" id="sub-accordionExperience">
+                            <!-- Project Blackbird -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="sub-headingBB">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseBB" aria-expanded="false" aria-controls="collapseTwo">
@@ -219,7 +220,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!--Concentrix-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="sub-headingCTX">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseCTX" aria-expanded="false" aria-controls="collapseTwo">
@@ -237,7 +238,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!--S&T-->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="sub-headingSNT">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseSNT" aria-expanded="false" aria-controls="collapseTwo">
@@ -260,6 +261,45 @@
                 </div>
             </div>
         </div>
+        <hr class="col-sm-6">
+        <div class="accordion col-sm-6" id="accordionPortfolio">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Portfolio
+                    </button>
+
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="accordionPortfolio">
+                    <!--Accordion for Portfolio-->
+                    <div class="accordion-body">
+                        <div class="accordion" id="sub-AccordionPortfolio">
+                            <!--Placeholder-->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="sub-headingPlaceholder">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sub-CollapsePlaceholder" aria-expanded="false" aria-controls="collapseFour">
+                                        Placeholder
+                                    </button>
+                                </h2>
+                                <div id="sub-collapsePlaceholder" class="accordion-collapse collapse" aria-labelledby="sub-headingPortfolio" data-bs-parent="#sub-CollapsePortfolio">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Manager</li>
+                                            <ul>
+                                                <li class="list-group">2018 - 2021</li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Placeholder</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -274,5 +314,5 @@
 
 <!--TODO: Add dark mode toggle-->
 <!--TODO: Add popover to list my responsibilities -->
+<!--TODO: Logic error with parent accordion, probably nesting error-->
 <!--TODO: Fix Accordion being open by default https://getbootstrap.com/docs/5.0/components/accordion/#always-open -->
-
