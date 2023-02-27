@@ -1,8 +1,9 @@
 //Closes the children accordions
-$('.accordion-collapse').on('hidden.bs.collapse', function() {
-    // find the children and close them
-    $(this).find('.collapse').collapse('hide');
-});
+// $('.accordion-collapse').on('hidden.bs.collapse', function() {
+//     // find the children and close them
+//     $(this).find('.collapse').collapse('hide');
+// });
+
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
