@@ -35,6 +35,10 @@ ul {
     box-shadow: 0 0 10px .35rem lightgrey !important;
 }
 
+.modal-header {
+    line-height: 0;
+}
+
 @media only screen and (max-width:600px) {
     .vert-center {
         display: flex;
