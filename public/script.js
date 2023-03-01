@@ -21,12 +21,3 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function() {
     myInput.focus()
 })
-
-var myCarousel = document.querySelector('#carouselExampleControls')
-var myModalEl = document.getElementById('exampleModal')
-
-myModalEl.addEventListener('show.bs.modal', function(event) {
-    const trigger = event.relatedTarget
-    var bsCarousel = bootstrap.Carousel.getInstance(myCarousel)
-    bsCarousel.to(trigger.dataset.bsSlideTo)
-})
